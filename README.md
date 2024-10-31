@@ -1,2 +1,2 @@
 # Paper-Code
-Codes for submissions in NNs
+Codes for "Z. Xia, et al, Distributed Nonconvex Optimization Subject to Globally Coupled Constraints via Collaborative Neurodynamic Optimization" submitted to Neural Networks  
