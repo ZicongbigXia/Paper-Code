@@ -1,5 +1,5 @@
 
-%Code for the RNN in Example 2 of "Z. Xia, et al, Distributed Nonconvex Optimization Subject to Globally Coupled Constraints via Collaborative Neurodynamic Optimization" submmited to Neural Networks  
+%Code for the RNN in Example 2 of "Z. Xia, et al, Distributed Nonconvex Optimization Subject to Globally Coupled Constraints via Collaborative Neurodynamic Optimization" submitted to Neural Networks  
  
 step=0.01;
 tend=1;
