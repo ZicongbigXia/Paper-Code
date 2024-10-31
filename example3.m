@@ -27,8 +27,13 @@ x0=[0 5 3 -2 -2]';
 y0=[9 5 -3 -2 2]';
 f0(31:55)=kron(ones(5,1),x0);
 f0(56:80)=kron(ones(5,1),y0);
+
+
  
-options=odeset('RelTol',1e-8,'AbsTol',1e-8);
+%other parameters
+alpha=0.5;
+
+options=odeset('RelTol',1e-8,'AbsTol',1e-8);% ODE tool parameters
 [t,f]=ode15s(@(t,y) fun1(t,y,L,x0,y0,B,alpha),tspan,f0,options);
  
 %2D circle and curves
@@ -50,8 +55,6 @@ options=odeset('RelTol',1e-8,'AbsTol',1e-8);
 % plot(f(end,1),f(end,6),'-*','Markersize',8, 'linewidth',1.5,'color','k','MarkerFaceColor','k');
 % grid on
 
-%other parameters
-alpha=0.5;
 
 %3D
 theta = linspace(0, 2*pi, 100); 
